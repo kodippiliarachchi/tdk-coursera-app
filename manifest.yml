@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: tdk-coursera-app
+  host: tdk-coursera-app
+  disk_quota: 1024M
+  services:
+  - tdk-coursera-app-cloudantNoSQLDB
+  - tdk-coursera-app-iotf-service
